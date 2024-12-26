@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import TaskForm from "./Components/Taskform";
 import './Style.css';
 import TaskList from "./Components/Tasklist";
-import ProgressTracker from "./components/ProgressTracker";
+import ProgressTracker from "./Components/ProgressTracker";
 
 function App() {
   const [tasks, setTasks] = useState([]);
