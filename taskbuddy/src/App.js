@@ -1,8 +1,8 @@
 
 import { useState, useEffect } from "react";
-import TaskForm from "./Components/Taskform";
+import Taskform from "./Components/Taskform";
 import './Style.css';
-import TaskList from "./Components/Tasklist";
+import Tasklist from "./Components/Tasklist";
 import ProgressTracker from "./Components/ProgressTracker";
 
 function App() {
@@ -39,8 +39,8 @@ function App() {
     <p class="tagline">Your friendly task manager</p>
   </div>
 </header>
-      <TaskForm addTask = {addTask} />
-      <TaskList
+      <Taskform addTask = {addTask} />
+      <Tasklist
         tasks={tasks}
         updateTask={updateTask}
         deleteTask={deleteTask}

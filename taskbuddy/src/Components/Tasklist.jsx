@@ -1,5 +1,5 @@
 import React from "react";
-function TaskList({ tasks, updateTask, deleteTask }) {
+function Tasklist({ tasks, updateTask, deleteTask }) {
   const toggleComplete = (index) => {
     const updatedTask = { ...tasks[index], completed: !tasks[index].completed };
     updateTask(index, updatedTask);
@@ -23,4 +23,4 @@ function TaskList({ tasks, updateTask, deleteTask }) {
     </ul>
   );
 }
-export default TaskList;
+export default Tasklist;

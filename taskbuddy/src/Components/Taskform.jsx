@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export default function TaskForm({addTask}) {
+export default function Taskform({addTask}) {
     const [task, setTask] = useState('');
     const [priority, setPriority] = useState("Medium");
     const [category, setCategory] = useState("General");
